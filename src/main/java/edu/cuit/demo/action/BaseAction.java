@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BaseAction {
     @RequestMapping("index")
     public String execute(){
+        //test
         print();
         return "index";
     }
